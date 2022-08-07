@@ -1,0 +1,83 @@
+/* Default Settings */ 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/bg.png');
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  align-items: center;
+}
+
+.logo {
+  margin: 50px;
+}
+
+.list {
+  display: flex;
+  color: white;
+  list-style-type: none;
+}
+
+.list-item {
+  padding: 20px;
+  margin: 20px;
+  color: #ffc233;
+}
+
+.button-small {
+  background-color: #ff505f;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 40px;
+  margin: 50px;
+  cursor: pointer;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+h1 {
+  text-align: center;
+  color: #ffc233;
+  font-size: 100px;
+  margin: 50px;
+  font-weight: 900;
+}
+
+.button-large {
+  position: relative;
+  left: 40%;
+  background-color: #ff505f;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.bottom {
+  display: flex;
+  justify-content: right;
+  margin: 50px;
+}
